@@ -1,0 +1,22 @@
+<div class="flex-box">
+  <md-list>
+    <md-card *ngFor="let question of questions">
+      <h3>{{question.title}}</h3>
+
+      <div *ngFor="let choice of question.choices">
+        <input name ="{{question.title}}" type="radio">{{choice.title}}
+      </div>
+
+    </md-card>
+
+  </md-list>
+</div>
+
+
+<!--
+<ul>
+  <li *ngFor="let question of questions">
+    {{question.title}}
+  </li>
+</ul>
+-->

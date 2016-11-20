@@ -1,0 +1,21 @@
+{
+  "items": [
+    {
+      "name": "Item 4",
+      "description": "This is Item 4",
+      "id": 4,
+      "featured": true
+    },
+    {
+      "id": 5,
+      "name": "New Item",
+      "description": "This is a new Item",
+      "featured": false
+    },
+    {
+      "id": 6,
+      "name": "Super Drupper",
+      "description": "This a super drupper item"
+    }
+  ]
+}
